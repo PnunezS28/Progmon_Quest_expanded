@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcae48bab0034c84aa7e4a9ff971638b, type: 3}
+  m_Name: GiveAntidote
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Conseguiste un ant\xEDdoto"
+    flagSet: []
+    nextTrigger: {fileID: 11400000, guid: 26191d760e071d843aa62bcd9b70f472, type: 2}
+    audioClip: {fileID: 8300000, guid: 1f7d35cb6e080724dbb0c642756cd5ed, type: 3}
+    audioClipVolume: 0.5
+    HealAllCreturesInParty: 0
+  itemToGive: {fileID: 11400000, guid: 2693b72658f18e74bb72b143ea7e0889, type: 2}
+  amountOfItem: 1

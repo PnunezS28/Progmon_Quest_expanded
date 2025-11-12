@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefdf144523a5424dbc01ad4166a1411, type: 3}
+  m_Name: 01_QuestGameSharkInfo
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "\xBFSab\xEDas que antes de los juegos VR hab\xEDa una especie de aparato que
+      modificaba juegos?"
+    - "Me suena que v\xED en el Resquicio RAM una especie de progmon que daba un
+      aire similar."
+    flagSet:
+    - flagKey: MountainQuestStart
+      flagValue: true
+    nextTrigger: {fileID: 11400000, guid: e3f705167c2bbf5448647222eb56344d, type: 2}
+    audioClip: {fileID: 0}
+    audioClipVolume: 0.5
+    HealAllCreturesInParty: 0

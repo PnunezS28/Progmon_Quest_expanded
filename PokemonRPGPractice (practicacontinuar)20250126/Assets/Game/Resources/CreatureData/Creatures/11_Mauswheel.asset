@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4012c1cd1f08de43931ccf42f41cd3d, type: 3}
+  m_Name: 11_Mauswheel
+  m_EditorClassIdentifier: 
+  creatureDexId: 11
+  creatureName: Mauswheel
+  description: "Peque\xF1o pero veloz. Criaturas felinas lo intentar\xE1n dar caza,
+    pero siempre se escurrir\xE1. Eso s\xED, no podr\xE1s trabajar con \xE9l."
+  battleSprite: {fileID: 21300000, guid: f660d5885ab779e4084b985aadf6667e, type: 3}
+  type1: 7
+  type2: 0
+  maxHP: 60
+  attack: 20
+  defense: 60
+  spAttack: 80
+  spDefense: 60
+  speed: 100
+  catchRate: 255
+  expYield: 64
+  growthRate: 1
+  learnableSkills:
+  - skillBase: {fileID: 11400000, guid: a2dbd322fb721fb4a94e4d402ad41eb9, type: 2}
+    level: 1
+  - skillBase: {fileID: 11400000, guid: e89712c9c4bc2b143a002249a569aa19, type: 2}
+    level: 2
+  - skillBase: {fileID: 11400000, guid: 5bc298031857ec94982512a15b8dfd87, type: 2}
+    level: 5
+  - skillBase: {fileID: 11400000, guid: 6ed7fc0241f360e42920db1bf7e91195, type: 2}
+    level: 7
+  - skillBase: {fileID: 11400000, guid: 214ef153d759faf4883900157f95238e, type: 2}
+    level: 8
+  - skillBase: {fileID: 11400000, guid: fa290244528011e439ea1cca85794edb, type: 2}
+    level: 10
+  - skillBase: {fileID: 11400000, guid: 3c209c70d21a88440aca49ba8ae23c2c, type: 2}
+    level: 11

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 526fb57e20205674aaa2be0c27211d6e, type: 3}
+  m_Name: 0_ProfesoraLabBook
+  m_EditorClassIdentifier: 
+  bookPages:
+  - dialogueElement: {fileID: 11400000, guid: 5d4eee02a2218134a897767f7f09a4f2, type: 2}
+    triggers: []
+  - dialogueElement: {fileID: 11400000, guid: 1092194ea845c564da11a25c67dc5c31, type: 2}
+    triggers:
+    - flagType: 1
+      flagKey: start_picking_starter
+      compare: 0
+      flagValue: true
+  - dialogueElement: {fileID: 11400000, guid: c62bf69a556d28d4b9318349550cce2c, type: 2}
+    triggers:
+    - flagType: 1
+      flagKey: ChoseStarter
+      compare: 0
+      flagValue: true
+  - dialogueElement: {fileID: 11400000, guid: 6656ecbe22ee05c41b41cbaf89c5b8c6, type: 2}
+    triggers:
+    - flagType: 1
+      flagKey: Stage1_started
+      compare: 0
+      flagValue: true
+  - dialogueElement: {fileID: 11400000, guid: cd185328a065505468f7b5e0566efedc, type: 2}
+    triggers:
+    - flagType: 1
+      flagKey: forest1_boss_defeated
+      compare: 0
+      flagValue: true
+  - dialogueElement: {fileID: 11400000, guid: 9824c4a2c2d44ca47a48c799e27b3da4, type: 2}
+    triggers:
+    - flagType: 1
+      flagKey: Stage2_start
+      compare: 0
+      flagValue: true
+  - dialogueElement: {fileID: 11400000, guid: e74b1c3dada5be04083bc40ca78d060a, type: 2}
+    triggers:
+    - flagType: 1
+      flagKey: Boss_world2_cleared
+      compare: 0
+      flagValue: true
+  - dialogueElement: {fileID: 11400000, guid: 6b57c1e4aaa794f4582ca3b8a5e3a509, type: 2}
+    triggers:
+    - flagType: 1
+      flagKey: stage3_start
+      compare: 0
+      flagValue: true
+  - dialogueElement: {fileID: 11400000, guid: 3e7e4f5f17548664986cb427c2aafd0c, type: 2}
+    triggers:
+    - flagType: 1
+      flagKey: stage3_boss_defeated
+      compare: 0
+      flagValue: true
+  - dialogueElement: {fileID: 11400000, guid: 3c1dc07325571d1499217acde7379f62, type: 2}
+    triggers:
+    - flagType: 1
+      flagKey: Game_clear
+      compare: 0
+      flagValue: true

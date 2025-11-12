@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4012c1cd1f08de43931ccf42f41cd3d, type: 3}
+  m_Name: 14_USBee
+  m_EditorClassIdentifier: 
+  creatureDexId: 14
+  creatureName: USBee
+  description: "Su picadura absorve e injecta datos. Transporta informaci\xF3n por
+    diferentes bosques virtuales."
+  battleSprite: {fileID: 21300000, guid: 1df1e9a7b7bdca544b38b76b7bed49b9, type: 3}
+  type1: 1
+  type2: 6
+  maxHP: 62
+  attack: 82
+  defense: 62
+  spAttack: 62
+  spDefense: 41
+  speed: 103
+  catchRate: 255
+  expYield: 100
+  growthRate: 1
+  learnableSkills:
+  - skillBase: {fileID: 11400000, guid: d5d58ed0a5bfb434db9165a564186e8a, type: 2}
+    level: 1
+  - skillBase: {fileID: 11400000, guid: 216d7cd85840d354bac94020d2a5f5a0, type: 2}
+    level: 3
+  - skillBase: {fileID: 11400000, guid: c1a73ff7e9529b4439a90454d752025c, type: 2}
+    level: 5
+  - skillBase: {fileID: 11400000, guid: 52b90c7c7e186b24d8109992f4f01ffa, type: 2}
+    level: 8
+  - skillBase: {fileID: 11400000, guid: 2814b8373dbac9f40b646049de97af6b, type: 2}
+    level: 10
+  - skillBase: {fileID: 11400000, guid: 6a4c0718d8f940a4e84ebc2bae7fecdc, type: 2}
+    level: 12
+  learnableSkillsByItems:
+  - {fileID: 11400000, guid: 6a4c0718d8f940a4e84ebc2bae7fecdc, type: 2}
+  - {fileID: 11400000, guid: 7da43b448669e114a846043873a8eef2, type: 2}
+  - {fileID: 11400000, guid: d8b0c6852c5efec4e9032f9cd9e49b9d, type: 2}

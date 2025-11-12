@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335443c19a2905145a35758fff79cbea, type: 3}
+  m_Name: 3_DD03_DracoGarra
+  m_EditorClassIdentifier: 
+  itemDexId: 43
+  itemName: DD03
+  itemDescription: "Disco de descarga que ense\xF1a la habilidad Dracogarra a un
+    prog-mon"
+  itemUsedText: 
+  itemIcon: {fileID: 21300000, guid: eddb4f430e33f6b4ab1b30fc4c0f0f51, type: 3}
+  shopPrice: 150
+  isSellable: 1
+  skill: {fileID: 11400000, guid: 2e6026c28c22e4d49b709733378b9280, type: 2}

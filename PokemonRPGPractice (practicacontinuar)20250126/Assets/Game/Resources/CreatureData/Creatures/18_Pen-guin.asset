@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4012c1cd1f08de43931ccf42f41cd3d, type: 3}
+  m_Name: 18_Pen-guin
+  m_EditorClassIdentifier: 
+  creatureDexId: 18
+  creatureName: Pen-guin
+  description: "Armado con creatividad y un l\xE1piz tactil pintarrajea por el mundo
+    virtual dejando su grafiti caracter\xEDstico."
+  battleSprite: {fileID: 21300000, guid: c5ac136ed62d7814eaf6affeadbde5fc, type: 3}
+  type1: 10
+  type2: 3
+  maxHP: 79
+  attack: 109
+  defense: 79
+  spAttack: 79
+  spDefense: 53
+  speed: 105
+  catchRate: 150
+  expYield: 130
+  growthRate: 1
+  learnableSkills:
+  - skillBase: {fileID: 11400000, guid: e89712c9c4bc2b143a002249a569aa19, type: 2}
+    level: 1
+  - skillBase: {fileID: 11400000, guid: 4595bd69902ea514bb770173172c0f3d, type: 2}
+    level: 5
+  - skillBase: {fileID: 11400000, guid: 910051377d1c85942be9751867829b55, type: 2}
+    level: 7
+  - skillBase: {fileID: 11400000, guid: 5a1d2602ca89bfa45b62696ae74173d1, type: 2}
+    level: 9
+  - skillBase: {fileID: 11400000, guid: 37054527dac9c314696b38d50ca07b66, type: 2}
+    level: 10
+  - skillBase: {fileID: 11400000, guid: 8378fea5a8efe4940bb7233e8bbb5e25, type: 2}
+    level: 11
+  - skillBase: {fileID: 11400000, guid: b2ed12966f20b66489c5d07f35a7a6d7, type: 2}
+    level: 12

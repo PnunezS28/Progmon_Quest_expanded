@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 526fb57e20205674aaa2be0c27211d6e, type: 3}
+  m_Name: BooktriggerStatusProf
+  m_EditorClassIdentifier: 
+  bookPages:
+  - dialogueElement: {fileID: 11400000, guid: 8660f66525e56de49b7249f39d53d520, type: 2}
+    triggers: []
+  - dialogueElement: {fileID: 11400000, guid: 16477ce57f42411419c21707977a8c99, type: 2}
+    triggers:
+    - flagType: 1
+      flagKey: first_meet_status_prof
+      compare: 0
+      flagValue: true

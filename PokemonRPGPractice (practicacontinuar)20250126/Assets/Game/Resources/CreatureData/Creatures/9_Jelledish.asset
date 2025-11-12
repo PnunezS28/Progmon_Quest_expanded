@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4012c1cd1f08de43931ccf42f41cd3d, type: 3}
+  m_Name: 9_Jelledish
+  m_EditorClassIdentifier: 
+  creatureDexId: 9
+  creatureName: Jelledish
+  description: "Mantener una serie de leds encendidos cuesta m\xE1s potencia, sin
+    embargo mantenerlos en paralelo se pueden hacer con un par de pilas AA."
+  battleSprite: {fileID: 21300000, guid: f1c8bd3d183eb7648ae7e5ce921aacd2, type: 3}
+  type1: 8
+  type2: 3
+  maxHP: 42
+  attack: 21
+  defense: 84
+  spAttack: 106
+  spDefense: 84
+  speed: 42
+  catchRate: 200
+  expYield: 120
+  growthRate: 1
+  learnableSkills:
+  - skillBase: {fileID: 11400000, guid: a2dbd322fb721fb4a94e4d402ad41eb9, type: 2}
+    level: 1
+  - skillBase: {fileID: 11400000, guid: ab7d42ccaf23b2f4e85b98de1462406b, type: 2}
+    level: 4
+  - skillBase: {fileID: 11400000, guid: fa290244528011e439ea1cca85794edb, type: 2}
+    level: 5
+  - skillBase: {fileID: 11400000, guid: be45ae1d143075a42ab76e8bdc2b9770, type: 2}
+    level: 6
+  - skillBase: {fileID: 11400000, guid: c1a73ff7e9529b4439a90454d752025c, type: 2}
+    level: 8
+  - skillBase: {fileID: 11400000, guid: 8378fea5a8efe4940bb7233e8bbb5e25, type: 2}
+    level: 10
+  learnableSkillsByItems:
+  - {fileID: 11400000, guid: d1485e8d8b9f98b478966eaab8839930, type: 2}
+  - {fileID: 11400000, guid: ab7d42ccaf23b2f4e85b98de1462406b, type: 2}
+  - {fileID: 11400000, guid: d8b0c6852c5efec4e9032f9cd9e49b9d, type: 2}
+  - {fileID: 11400000, guid: 37054527dac9c314696b38d50ca07b66, type: 2}

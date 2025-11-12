@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9fa2d83c46691f4db4af26783d53c4f, type: 3}
+  m_Name: CreatureDexProgmonQuest
+  m_EditorClassIdentifier: 
+  creatureEntries:
+  - creature: {fileID: 11400000, guid: 0084d194e9c750b4b9c1f9de6568f1a7, type: 2}
+    entryId: 1
+  - creature: {fileID: 11400000, guid: 488d99dfe7029694baecdbb422ac21af, type: 2}
+    entryId: 24
+  - creature: {fileID: 11400000, guid: a7e168507f82f5f4385fff2bda9531f5, type: 2}
+    entryId: 24
+  - creature: {fileID: 11400000, guid: d3016627ae78dd84191873d601a3c6a3, type: 2}
+    entryId: 2
+  - creature: {fileID: 11400000, guid: 665dd8aa50cac354895b048abbeca4a6, type: 2}
+    entryId: 3
+  - creature: {fileID: 11400000, guid: ad28b875ae2e8874fb596c750b4a8539, type: 2}
+    entryId: 4
+  - creature: {fileID: 11400000, guid: 06e90124c74516a4391a712a357b7dee, type: 2}
+    entryId: 5
+  - creature: {fileID: 11400000, guid: 521b8cd63c9d24c4d8e0b90a14dcf975, type: 2}
+    entryId: 6
+  - creature: {fileID: 11400000, guid: 146b5d8207df0244f9c2f0e0c108e1f4, type: 2}
+    entryId: 7
+  - creature: {fileID: 11400000, guid: db2d4fa3cf7c1404bbec3b3cd68c085c, type: 2}
+    entryId: 8
+  - creature: {fileID: 11400000, guid: 8ff8256cd7883b94d9b791009691a946, type: 2}
+    entryId: 9
+  - creature: {fileID: 11400000, guid: 2a3d0714377aae746a9a75403bd28326, type: 2}
+    entryId: 10
+  - creature: {fileID: 11400000, guid: 7ff21f861bb3e3e4ab698e660723b4b9, type: 2}
+    entryId: 11
+  - creature: {fileID: 11400000, guid: 25c850bbb49e44a4189209efc08c6f1f, type: 2}
+    entryId: 12
+  - creature: {fileID: 11400000, guid: 082b885a4aa1ee441a688a9eab1fe12f, type: 2}
+    entryId: 13
+  - creature: {fileID: 11400000, guid: 292a974117cafae43b3457e8eb30e054, type: 2}
+    entryId: 14
+  - creature: {fileID: 11400000, guid: 64aaa0c29305c51489b53244b3f6bff9, type: 2}
+    entryId: 15
+  - creature: {fileID: 11400000, guid: 62d2a5d6786d02948b27bd94b444f86a, type: 2}
+    entryId: 16
+  - creature: {fileID: 11400000, guid: 637b1784c8b20a14fa424074eef76c32, type: 2}
+    entryId: 17
+  - creature: {fileID: 11400000, guid: b8026ade47bb6ef42ab8719d9444b9f2, type: 2}
+    entryId: 18
+  - creature: {fileID: 11400000, guid: 40a3e7741ec314149a54ce0307c77038, type: 2}
+    entryId: 19
+  - creature: {fileID: 11400000, guid: 0de35e85e002e1844937dddb08ca9338, type: 2}
+    entryId: 20
+  - creature: {fileID: 11400000, guid: 8a005a2abd190964c8609bbc635e5f01, type: 2}
+    entryId: 21
+  - creature: {fileID: 11400000, guid: 7b6fba806563a304bb6d0e53f3fe2d9b, type: 2}
+    entryId: 22
+  - creature: {fileID: 11400000, guid: f1d5ffb1b3ebef44aa8f3adb0c2a3f3b, type: 2}
+    entryId: 23
+  - creature: {fileID: 11400000, guid: 2b773f47aa7fa7c40841f0db6f25e257, type: 2}
+    entryId: 24
+  skillEntries:
+  - skillBase: {fileID: 11400000, guid: 0a6ec912c04e5134a9826e3176aea115, type: 2}
+    skillId: 1
+  - skillBase: {fileID: 11400000, guid: 17d9ea1987b4c884795ea4daea1d0558, type: 2}
+    skillId: 2
+  - skillBase: {fileID: 11400000, guid: 0b70115300d244144b6ca61c9f6dffc6, type: 2}
+    skillId: 3
+  - skillBase: {fileID: 11400000, guid: 2e6026c28c22e4d49b709733378b9280, type: 2}
+    skillId: 4
+  - skillBase: {fileID: 11400000, guid: dac7c7fdb3515524a900017dacfca3ac, type: 2}
+    skillId: 5
+  - skillBase: {fileID: 11400000, guid: 03ef9a29d851d8d47a20b5fdb23503b5, type: 2}
+    skillId: 6
+  - skillBase: {fileID: 11400000, guid: f13f8f057b854b54f812310e83dfcd69, type: 2}
+    skillId: 7
+  - skillBase: {fileID: 11400000, guid: 518919830efdbd443ae5819b278fb5a2, type: 2}
+    skillId: 8
+  - skillBase: {fileID: 11400000, guid: a2dbd322fb721fb4a94e4d402ad41eb9, type: 2}
+    skillId: 9
+  - skillBase: {fileID: 11400000, guid: fa290244528011e439ea1cca85794edb, type: 2}
+    skillId: 10
+  - skillBase: {fileID: 11400000, guid: 96d5a9bf50b56764dac9174b044d57b8, type: 2}
+    skillId: 11
+  - skillBase: {fileID: 11400000, guid: 216d7cd85840d354bac94020d2a5f5a0, type: 2}
+    skillId: 12
+  - skillBase: {fileID: 11400000, guid: 7da43b448669e114a846043873a8eef2, type: 2}
+    skillId: 13
+  - skillBase: {fileID: 11400000, guid: b7a31e04577f41646bd8c967f6f2d494, type: 2}
+    skillId: 14
+  - skillBase: {fileID: 11400000, guid: e89712c9c4bc2b143a002249a569aa19, type: 2}
+    skillId: 15
+  - skillBase: {fileID: 11400000, guid: ab7d42ccaf23b2f4e85b98de1462406b, type: 2}
+    skillId: 16
+  - skillBase: {fileID: 11400000, guid: 3c209c70d21a88440aca49ba8ae23c2c, type: 2}
+    skillId: 17
+  - skillBase: {fileID: 11400000, guid: 724763bee833aaf4f9d271ebabed14fc, type: 2}
+    skillId: 18
+  - skillBase: {fileID: 11400000, guid: 4b559fa02b2246a4a9b07ce64f474b0d, type: 2}
+    skillId: 5
+  - skillBase: {fileID: 11400000, guid: 01da91c8ae21c6245b9bcffa1a755a1a, type: 2}
+    skillId: 20
+  - skillBase: {fileID: 11400000, guid: df7ec9a66b4534d41b7f2ad741bddb5a, type: 2}
+    skillId: 21
+  - skillBase: {fileID: 11400000, guid: d8b0c6852c5efec4e9032f9cd9e49b9d, type: 2}
+    skillId: 22
+  - skillBase: {fileID: 11400000, guid: 0f1f16111154eff43b55f2822ca0e7a9, type: 2}
+    skillId: 23
+  - skillBase: {fileID: 11400000, guid: 804e3d4b54a2f754d9383f79ef23e4f0, type: 2}
+    skillId: 23
+  - skillBase: {fileID: 11400000, guid: 93ea057e998c5c04a8770a96d497f3ea, type: 2}
+    skillId: 25
+  - skillBase: {fileID: 11400000, guid: 60765e94cc1d01f4583c45ed9b6f8523, type: 2}
+    skillId: 26
+  - skillBase: {fileID: 11400000, guid: c0af7e2f6c562ac418865e4a0eb42538, type: 2}
+    skillId: 27
+  - skillBase: {fileID: 11400000, guid: a0b12dd8c6264ee4fb15825559c028a8, type: 2}
+    skillId: 28
+  - skillBase: {fileID: 11400000, guid: 5b578b31c8702c844b38081d0dc519d8, type: 2}
+    skillId: 29
+  - skillBase: {fileID: 11400000, guid: 5a1d2602ca89bfa45b62696ae74173d1, type: 2}
+    skillId: 30
+  - skillBase: {fileID: 11400000, guid: 4912647b43b0a5941b41cf565f74a7f5, type: 2}
+    skillId: 31
+  - skillBase: {fileID: 11400000, guid: f2f334c56f1c0f1408efb698d02c3a24, type: 2}
+    skillId: 32
+  - skillBase: {fileID: 11400000, guid: 827e77560f774b4439b4a75a4e9b73e8, type: 2}
+    skillId: 33
+  - skillBase: {fileID: 11400000, guid: 151b7d94fa9d32a47961400e01f994c6, type: 2}
+    skillId: 34
+  - skillBase: {fileID: 11400000, guid: 1f8d3aa9976de894cbdb5c5881e8da05, type: 2}
+    skillId: 35
+  - skillBase: {fileID: 11400000, guid: 214ef153d759faf4883900157f95238e, type: 2}
+    skillId: 36
+  - skillBase: {fileID: 11400000, guid: b2ed12966f20b66489c5d07f35a7a6d7, type: 2}
+    skillId: 37
+  - skillBase: {fileID: 11400000, guid: 326eb246a74dc164987f5383499e0c68, type: 2}
+    skillId: 38
+  - skillBase: {fileID: 11400000, guid: 8497eb8b970ff7a4b922c8747f0cd49a, type: 2}
+    skillId: 39
+  - skillBase: {fileID: 11400000, guid: 8378fea5a8efe4940bb7233e8bbb5e25, type: 2}
+    skillId: 40
+  - skillBase: {fileID: 11400000, guid: a67302bfbe6bee74ca9a32d59870a34f, type: 2}
+    skillId: 41
+  - skillBase: {fileID: 11400000, guid: 1c07e4791b4414744b7295a6c14a1186, type: 2}
+    skillId: 42
+  - skillBase: {fileID: 11400000, guid: 5bc298031857ec94982512a15b8dfd87, type: 2}
+    skillId: 43
+  - skillBase: {fileID: 11400000, guid: 6ed7fc0241f360e42920db1bf7e91195, type: 2}
+    skillId: 44
+  - skillBase: {fileID: 11400000, guid: d5d58ed0a5bfb434db9165a564186e8a, type: 2}
+    skillId: 45
+  - skillBase: {fileID: 11400000, guid: 485f0d6b6224fde4c8d759b809723c36, type: 2}
+    skillId: 46
+  - skillBase: {fileID: 11400000, guid: 6a4c0718d8f940a4e84ebc2bae7fecdc, type: 2}
+    skillId: 47
+  - skillBase: {fileID: 11400000, guid: 52b90c7c7e186b24d8109992f4f01ffa, type: 2}
+    skillId: 48
+  - skillBase: {fileID: 11400000, guid: c1a73ff7e9529b4439a90454d752025c, type: 2}
+    skillId: 59
+  - skillBase: {fileID: 11400000, guid: 57455142297dc814c848df08595b72e1, type: 2}
+    skillId: 50
+  - skillBase: {fileID: 11400000, guid: 996f4840d1bf0334abc8cc2c3badb2d5, type: 2}
+    skillId: 51
+  - skillBase: {fileID: 11400000, guid: 94a8316420eb4da4a9a13b166151e0e5, type: 2}
+    skillId: 52
+  - skillBase: {fileID: 11400000, guid: a53e70655bd3ad445bdc99d5441f3c25, type: 2}
+    skillId: 53
+  - skillBase: {fileID: 11400000, guid: 5f47487c01db69a48bdc72b559ee1034, type: 2}
+    skillId: 54
+  - skillBase: {fileID: 11400000, guid: 910051377d1c85942be9751867829b55, type: 2}
+    skillId: 55
+  - skillBase: {fileID: 11400000, guid: d1485e8d8b9f98b478966eaab8839930, type: 2}
+    skillId: 56
+  - skillBase: {fileID: 11400000, guid: 4595bd69902ea514bb770173172c0f3d, type: 2}
+    skillId: 57
+  - skillBase: {fileID: 11400000, guid: be45ae1d143075a42ab76e8bdc2b9770, type: 2}
+    skillId: 58
+  - skillBase: {fileID: 11400000, guid: 279f0d0fbed80cf4ea6792921d034497, type: 2}
+    skillId: 59
+  - skillBase: {fileID: 11400000, guid: 2814b8373dbac9f40b646049de97af6b, type: 2}
+    skillId: 60
+  - skillBase: {fileID: 11400000, guid: 327e55d38b726574989ee0900eaa7b88, type: 2}
+    skillId: 61
+  - skillBase: {fileID: 11400000, guid: 70710c51fd6979245beef66fd3a83281, type: 2}
+    skillId: 62
+  - skillBase: {fileID: 11400000, guid: 37054527dac9c314696b38d50ca07b66, type: 2}
+    skillId: 63
+  - skillBase: {fileID: 11400000, guid: 75d77dea52565174bad1593189e6d255, type: 2}
+    skillId: 64
+  - skillBase: {fileID: 11400000, guid: e64abe316b97cdb4f84d6c9b6d8e7707, type: 2}
+    skillId: 64
+  - skillBase: {fileID: 11400000, guid: 47987ae22531fab4592d0e48eca43826, type: 2}
+    skillId: 64
+  itemEntries:
+  - itemBase: {fileID: 11400000, guid: a53b1c724adc0324fa5e44c9ff823b7d, type: 2}
+    itemId: 21
+  - itemBase: {fileID: 11400000, guid: 43dcedb67d9910d4e9ec59f040d2b59e, type: 2}
+    itemId: 22
+  - itemBase: {fileID: 11400000, guid: 2693b72658f18e74bb72b143ea7e0889, type: 2}
+    itemId: 23
+  - itemBase: {fileID: 11400000, guid: e5793c1feb505d64db111372f4d0b85f, type: 2}
+    itemId: 24
+  - itemBase: {fileID: 11400000, guid: 221ef9fd9bf53a14f9474ec97dd2d598, type: 2}
+    itemId: 25
+  - itemBase: {fileID: 11400000, guid: bd0bbcf2fa91a7b41aed9ae49604e778, type: 2}
+    itemId: 26
+  - itemBase: {fileID: 11400000, guid: 70502992d3daa6e49997005ae47d7662, type: 2}
+    itemId: 27
+  - itemBase: {fileID: 11400000, guid: ce7dd5d28c8e9cd4e9f936f3da124c81, type: 2}
+    itemId: 28
+  - itemBase: {fileID: 11400000, guid: 36a9cb5be3bfd2749b5a5db4dc670b52, type: 2}
+    itemId: 29
+  - itemBase: {fileID: 11400000, guid: 6fb6809bb0f6a624ea9e36e44038df22, type: 2}
+    itemId: 210
+  - itemBase: {fileID: 11400000, guid: 915ac0fc17ae8b741892d497c383c8a4, type: 2}
+    itemId: 211
+  - itemBase: {fileID: 11400000, guid: 4cbe278680b72eb43855e374075cb84e, type: 2}
+    itemId: 212
+  - itemBase: {fileID: 11400000, guid: 5a4e533444dbc4b4e9d0a35b171ded15, type: 2}
+    itemId: 213
+  - itemBase: {fileID: 11400000, guid: 7664004a2ae754642a772d4114207d23, type: 2}
+    itemId: 214
+  - itemBase: {fileID: 11400000, guid: 7e7e6321767a8a2448c3780107f61682, type: 2}
+    itemId: 11
+  - itemBase: {fileID: 11400000, guid: 0b1f309bdf8732b4dbd48df4026c84f0, type: 2}
+    itemId: 12
+  - itemBase: {fileID: 11400000, guid: a1e09321e9d96794f89bf73db90baa69, type: 2}
+    itemId: 13
+  - itemBase: {fileID: 11400000, guid: 0b49c10b665f51d49a782db99fb66227, type: 2}
+    itemId: 31
+  - itemBase: {fileID: 11400000, guid: 1ebcffa8611615f4da5a86ed7f67258c, type: 2}
+    itemId: 32
+  - itemBase: {fileID: 11400000, guid: 8cdeeecd4b58572418a1aa8238c6dc65, type: 2}
+    itemId: 33
+  - itemBase: {fileID: 11400000, guid: 4580f749ec2deed4481e14b097b6b755, type: 2}
+    itemId: 34
+  - itemBase: {fileID: 11400000, guid: d775ad3dfcb8f3244ad63ac4b87c477d, type: 2}
+    itemId: 35
+  - itemBase: {fileID: 11400000, guid: 9bbbb52fa42d7f94b8bb938e88369e2c, type: 2}
+    itemId: 36
+  - itemBase: {fileID: 11400000, guid: f4a27820c85583a4fa29d5d31d19c8eb, type: 2}
+    itemId: 37
+  - itemBase: {fileID: 11400000, guid: 1112aad86d348704fbad62adfdafbcf6, type: 2}
+    itemId: 38
+  - itemBase: {fileID: 11400000, guid: c1644bff986d4d542862d727f883cd3f, type: 2}
+    itemId: 39
+  - itemBase: {fileID: 11400000, guid: 57d7a87f2ef89eb4ba8aa99fa51382b3, type: 2}
+    itemId: 41
+  - itemBase: {fileID: 11400000, guid: ed9a2b4116aa36d4da51815d4c9b020a, type: 2}
+    itemId: 42
+  - itemBase: {fileID: 11400000, guid: 5fe6fe18b9bfe504791dd13e9bddf0d5, type: 2}
+    itemId: 53
+  - itemBase: {fileID: 11400000, guid: 1e1fdabfed7f6b74cbb4a751b39c27dd, type: 2}
+    itemId: 53
+  - itemBase: {fileID: 11400000, guid: 11ac5714d5d2eaa4e81106d72d0ee980, type: 2}
+    itemId: 53
+  - itemBase: {fileID: 11400000, guid: 98af17f84268eac4ca88a318e4af3651, type: 2}
+    itemId: 53
+  - itemBase: {fileID: 11400000, guid: c36698f2c71f96943b4212cfe6cd469d, type: 2}
+    itemId: 53
+  - itemBase: {fileID: 11400000, guid: 7fbc28f506c9b0e44851137fda01d8dd, type: 2}
+    itemId: 53
+  - itemBase: {fileID: 11400000, guid: 62f761b85fbe68a45af541e75f2c0fd7, type: 2}
+    itemId: 53
+  - itemBase: {fileID: 11400000, guid: b2524f644488b0247885734309c3cbc5, type: 2}
+    itemId: 53
+  - itemBase: {fileID: 11400000, guid: 945d94af22d2eda44a07d0a2e454f75b, type: 2}
+    itemId: 53
+  - itemBase: {fileID: 11400000, guid: a1faceb6740e0d948992fa5097c472c4, type: 2}
+    itemId: 53
+  - itemBase: {fileID: 11400000, guid: e466db380a4bfe441bab5992231c4942, type: 2}
+    itemId: 53
+  - itemBase: {fileID: 11400000, guid: 9dfc5edc5280f3e48ae8e29a5b6b7781, type: 2}
+    itemId: 310
+  - itemBase: {fileID: 11400000, guid: ceb96a4f83449ed44ab451eb8e730bc1, type: 2}
+    itemId: 311
+  - itemBase: {fileID: 11400000, guid: e267a55e9d2297744b0ac63dca356a70, type: 2}
+    itemId: 312
+  - itemBase: {fileID: 11400000, guid: 59e374aa558d9d7459bf56849220df0e, type: 2}
+    itemId: 51
+  - itemBase: {fileID: 11400000, guid: 05604e23e4b87f84a989e694743a422a, type: 2}
+    itemId: 52
+  - itemBase: {fileID: 11400000, guid: 75e7f9ca4d969bf44bd6708b3752f382, type: 2}
+    itemId: 53
+  - itemBase: {fileID: 11400000, guid: d6abfb09f38badd48b38ee6b03b7066f, type: 2}
+    itemId: 53
+  Initialized: 0

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefdf144523a5424dbc01ad4166a1411, type: 3}
+  m_Name: 02_DialogoTendriaTienda
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - Estaba intenado hacer una tienda, pero no tenemos dinero.
+    - Ni siquiera tengo un puesto para vender.
+    flagSet:
+    - flagKey: 
+      flagValue: 
+    - flagKey: ShopTalkFirstTime
+      flagValue: true
+    nextTrigger: {fileID: 11400000, guid: c95bffb0308ff6e43a88fb5afbb4e786, type: 2}
+    audioClip: {fileID: 0}
+    audioClipVolume: 0.5
+    HealAllCreturesInParty: 0

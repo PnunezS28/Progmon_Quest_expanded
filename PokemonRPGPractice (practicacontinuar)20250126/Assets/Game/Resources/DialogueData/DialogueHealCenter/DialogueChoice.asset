@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c71a29663b7c0c4d8d7adbc42c8201d, type: 3}
+  m_Name: DialogueChoice
+  m_EditorClassIdentifier: 
+  choices:
+  - name: Si, por favor
+    dialogueTrigger: {fileID: 11400000, guid: 97e6c57a979f25741a95bb59915671cb, type: 2}
+  - name: No, gracias
+    dialogueTrigger: {fileID: 11400000, guid: 8a96cc363247b8b408fa6f465c4486d8, type: 2}

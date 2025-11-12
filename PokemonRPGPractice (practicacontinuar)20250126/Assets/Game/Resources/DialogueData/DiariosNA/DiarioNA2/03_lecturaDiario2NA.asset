@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefdf144523a5424dbc01ad4166a1411, type: 3}
+  m_Name: 03_lecturaDiario2NA
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Devlog Mes B, d\xEDa Y:"
+    - "Repertorio de criaturas expandido. Previsi\xF3n de expansi\xF3n de mundo expandida."
+    - "Recivida petici\xF3n de incrementar fidelidad. Recalculado tiempo de desarrollo
+      estimado: 1 mes."
+    - "Petici\xF3n de reducir tiempo estimado. Procesada... Problema: faltan recursos."
+    - "Petici\xF3n recivida de ignorar problema. \xBFPodr\xE9 hacer esto sin destruirme?"
+    - "Mes B d\xEDa XX: programa de desarrollo temporalmente suspendido por sobrecarga.
+      D\xE9jenme descansar."
+    - El matenimiento del server ha finalizado. Me siento mejor.
+    - Sistema Musa Fin de devlog.
+    flagSet: []
+    nextTrigger: {fileID: 0}
+    audioClip: {fileID: 0}
+    audioClipVolume: 0.5
+    HealAllCreturesInParty: 0

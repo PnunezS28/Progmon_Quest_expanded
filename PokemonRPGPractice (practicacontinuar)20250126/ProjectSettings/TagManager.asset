@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DefaultSpawnPoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - SolidObjects
+  - TallGrass
+  - Interactable
+  - Player
+  - FOVLayer
+  - Portals
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4031818141
+    locked: 0
+  - name: ForeGround
+    uniqueID: 2444027415
+    locked: 0
+  - name: Player
+    uniqueID: 3108899911
+    locked: 0
+  - name: Overground
+    uniqueID: 2817047209
+    locked: 0
+  - name: Battle
+    uniqueID: 3066772241
+    locked: 0
+  - name: PlayerUI
+    uniqueID: 1654457483
+    locked: 0
+  - name: TransitionUI
+    uniqueID: 4109036725
+    locked: 0
+  - name: EffectsUI
+    uniqueID: 3417642197
+    locked: 0

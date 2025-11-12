@@ -1,0 +1,474 @@
+fileFormatVersion: 2
+guid: 14c1dce3f795bf04bb3331aa2d816fbe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 203
+        width: 46
+        height: 62
+      alignment: 9
+      pivot: {x: 0.41094515, y: 0.5073417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a0d9adc1ef7ed4cac1e928e9f0e1e2
+      internalID: -1603738221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 201
+        width: 46
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4010504, y: 0.5000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637c284d73a420a46b3006c756be2737
+      internalID: -1213188606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 204
+        width: 46
+        height: 62
+      alignment: 9
+      pivot: {x: 0.40105075, y: 0.5073417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7748341fe6c4d441b37a38018d7f7d6
+      internalID: 1071167532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 203
+        width: 46
+        height: 63
+      alignment: 9
+      pivot: {x: 0.4109457, y: 0.5144501}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5e7d12cacae6949abb27a2713dfb19
+      internalID: 2068341401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 130
+        width: 46
+        height: 62
+      alignment: 9
+      pivot: {x: 0.37136534, y: 0.5000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddba716f1930b54ab65dd1a1453f91e
+      internalID: -862943456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 129
+        width: 46
+        height: 63
+      alignment: 9
+      pivot: {x: 0.38126042, y: 0.49277532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd30798d71ec11438600f9707bcc0d2
+      internalID: 1949660411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 132
+        width: 46
+        height: 62
+      alignment: 9
+      pivot: {x: 0.39115575, y: 0.5000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b640927c275eb8e49b57baf283ff202c
+      internalID: 413652216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_7
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 131
+        width: 46
+        height: 63
+      alignment: 9
+      pivot: {x: 0.40105075, y: 0.50000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b908b8e58030ac84484ab1df225208a7
+      internalID: -310545407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93b95dc717e92449ae71016142a3cde
+      internalID: -334340916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_9
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 64
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704c884fd6528394bba6fb10a306c6ec
+      internalID: 1817994619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_10
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 64
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262cbcbd0d8eca641a890c0f163e375d
+      internalID: -1011109306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_11
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 65
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdccf446c0ac4a546a2726dcd27bfaa3
+      internalID: -686330788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 4
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fc43f591920bd4a8920ab302263584
+      internalID: 400173045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b944b7d2e6d7f04eac64c2744463a78
+      internalID: 665475178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634d8c0d463ad774ab209bf52debad89
+      internalID: -402172326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteTrainerFemenino_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907b9351df9b1db4da05404104efc8f6
+      internalID: 1728526529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpriteTrainerFemenino_8: -334340916
+      SpriteTrainerFemenino_0: -1603738221
+      SpriteTrainerFemenino_1: -1213188606
+      SpriteTrainerFemenino_2: 1071167532
+      SpriteTrainerFemenino_6: 413652216
+      SpriteTrainerFemenino_10: -1011109306
+      SpriteTrainerFemenino_11: -686330788
+      SpriteTrainerFemenino_14: -402172326
+      SpriteTrainerFemenino_13: 665475178
+      SpriteTrainerFemenino_5: 1949660411
+      SpriteTrainerFemenino_4: -862943456
+      SpriteTrainerFemenino_3: 2068341401
+      SpriteTrainerFemenino_12: 400173045
+      SpriteTrainerFemenino_7: -310545407
+      SpriteTrainerFemenino_9: 1817994619
+      SpriteTrainerFemenino_15: 1728526529
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

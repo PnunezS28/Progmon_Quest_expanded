@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefdf144523a5424dbc01ad4166a1411, type: 3}
+  m_Name: DialogoInicioProfesora2
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - 'Soy la profesora Sara, este es un mundo virtual creado por una IA malvada.
+
+      Se
+      llama N/A.'
+    - 'Prf. Sara: Cuando lanzaron este juego VR nadie esperaba que lo atraparan.'
+    - 'Prf. Sara: Ahora estamos trabajando para escapar y necesitamos toda la ayuda
+      posible.'
+    flagSet: []
+    nextTrigger: {fileID: 11400000, guid: 35b1e3726cd0d08409dcb811f7b8179e, type: 2}
+    audioClip: {fileID: 0}
+    audioClipVolume: 0.5
+    HealAllCreturesInParty: 0

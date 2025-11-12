@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefdf144523a5424dbc01ad4166a1411, type: 3}
+  m_Name: DialogoNADemo_OndefeatedDialogue
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - 'N/A: khh...'
+    - "N/A: Muy pronto, a\xFAn es muy pronto."
+    - "N/A: Nos veremos en otro momento, si te haces m\xE1s fuerte."
+    flagSet: []
+    nextTrigger: {fileID: 11400000, guid: c45d520f33a607e4784ef16ef4e12bd6, type: 2}
+    audioClip: {fileID: 0}
+    audioClipVolume: 0.5
+    HealAllCreturesInParty: 0

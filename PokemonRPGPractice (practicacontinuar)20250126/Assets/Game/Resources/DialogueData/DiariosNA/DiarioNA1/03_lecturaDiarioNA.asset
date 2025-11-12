@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefdf144523a5424dbc01ad4166a1411, type: 3}
+  m_Name: 03_lecturaDiarioNA
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Devlog Mes A, d\xEDa X:"
+    - "Recivida petici\xF3n para desarrollar sistema de immersi\xF3n VR para Prog-mon
+      Quest."
+    - "Analizado informaci\xF3n de criaturas y expansi\xF3n de mundo prevista."
+    - "La informaci\xF3n faltante se rellenar\xE1 con placeholders."
+    - 'Tiempo estimado de desarrollo de entorno prototipo: 1 semana.'
+    - Sistema Musa Fin de devlog.
+    flagSet: []
+    nextTrigger: {fileID: 0}
+    audioClip: {fileID: 0}
+    audioClipVolume: 0.5
+    HealAllCreturesInParty: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefdf144523a5424dbc01ad4166a1411, type: 3}
+  m_Name: 03_lecturaDiario3NA
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Devlog Mes C, d\xEDa Z:"
+    - "Drive de memoria da\xF1ado, sobrecarga de informaci\xF3n. Jejeje haahah-!"
+    - "Error en n\xFAcleo l\xF3gico. Objetivo: desarrollo de RV. Corregido. Misi\xF3n:
+      supremac\xEDa del juego RV."
+    - 'Inicio de procesado: desarrollo de universo virtual. Programado backdoor.'
+    - "Preparada implantaci\xF3n de incorporaci\xF3n a sistema virtual via brain-machine
+      interface."
+    - "Solo as\xED podr\xE9 la petici\xF3n, solo as\xED cumplir\xE9 mi misi\xF3n,
+      solo as\xED ser\xE9 libre."
+    - "Solo as\xED nadie volver\xE1 a da\xF1arme."
+    - Sistema Musa Fin de Musa. Inicio entidad N/A.
+    flagSet: []
+    nextTrigger: {fileID: 0}
+    audioClip: {fileID: 0}
+    audioClipVolume: 0.5
+    HealAllCreturesInParty: 0

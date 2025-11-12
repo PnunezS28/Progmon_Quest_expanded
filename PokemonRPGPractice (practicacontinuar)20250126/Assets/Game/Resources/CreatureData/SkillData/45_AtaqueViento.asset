@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a80d3d52e6825649bb0ddcd289f34cb, type: 3}
+  m_Name: 45_AtaqueViento
+  m_EditorClassIdentifier: 
+  skillId: 45
+  displayName: Ataque Viento
+  description: "Libera una r\xE1faga de viento. Hace da\xF1o especial."
+  type: 6
+  power: 40
+  accuracy: 100
+  alwaysHit: 0
+  maxUses: 35
+  priority: 0
+  category: 1
+  effects:
+    boosts: []
+    status: 0
+    volatileStatus: 0
+  secondaries: []
+  target: 0
+  sound: {fileID: 8300000, guid: c322fb8e48b3d2d43bc002f88cc0077c, type: 3}

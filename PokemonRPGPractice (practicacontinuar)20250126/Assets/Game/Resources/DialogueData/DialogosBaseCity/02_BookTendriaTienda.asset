@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 526fb57e20205674aaa2be0c27211d6e, type: 3}
+  m_Name: 02_BookTendriaTienda
+  m_EditorClassIdentifier: 
+  bookPages:
+  - dialogueElement: {fileID: 11400000, guid: 2a7d68f46981f2245a32b380330b4092, type: 2}
+    triggers: []
+  - dialogueElement: {fileID: 11400000, guid: c781664e2eed2d44da65d60935764f8f, type: 2}
+    triggers:
+    - flagType: 1
+      flagKey: ShopTalkFirstTime
+      compare: 0
+      flagValue: true

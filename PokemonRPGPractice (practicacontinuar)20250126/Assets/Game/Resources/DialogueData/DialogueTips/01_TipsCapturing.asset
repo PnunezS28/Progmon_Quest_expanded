@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefdf144523a5424dbc01ad4166a1411, type: 3}
+  m_Name: 01_TipsCapturing
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Cuando utilices un objeto de captura habr\xE1 una probabilidad de a\xF1adir
+      el objetivo al equipo."
+    - Puedes incrementar tus probabilidades de captura reduciendo los PV del oponente.
+    - "Tambi\xE9n puedes inflinjir porblemas de estado."
+    - "No puedes capturar porg-mon utilizados por otros entrenadores. \xA1No robes!"
+    flagSet: []
+    nextTrigger: {fileID: 0}
+    audioClip: {fileID: 0}
+    audioClipVolume: 0.5
+    HealAllCreturesInParty: 0

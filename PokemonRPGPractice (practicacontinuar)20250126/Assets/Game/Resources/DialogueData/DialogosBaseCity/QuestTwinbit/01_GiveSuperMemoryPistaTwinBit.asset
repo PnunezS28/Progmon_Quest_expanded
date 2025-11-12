@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcae48bab0034c84aa7e4a9ff971638b, type: 3}
+  m_Name: 01_GiveSuperMemoryPistaTwinBit
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - Reciviste 3 Mem.Captura LV2
+    flagSet:
+    - flagKey: RecividoMemPistaTwinbit
+      flagValue: true
+    nextTrigger: {fileID: 11400000, guid: 98c2228bc5ee2724e86d347d18d66463, type: 2}
+    audioClip: {fileID: 8300000, guid: 1f7d35cb6e080724dbb0c642756cd5ed, type: 3}
+    audioClipVolume: 0.5
+    HealAllCreturesInParty: 0
+  itemToGive: {fileID: 11400000, guid: 0b1f309bdf8732b4dbd48df4026c84f0, type: 2}
+  amountOfItem: 3

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4012c1cd1f08de43931ccf42f41cd3d, type: 3}
+  m_Name: 16_Battarab
+  m_EditorClassIdentifier: 
+  creatureDexId: 16
+  creatureName: Battarab
+  description: "Peque\xF1o y muy saltar\xEDn. Se infiltra en ordenadores y debora
+    la energ\xEDa de las pilas y circuitos."
+  battleSprite: {fileID: 21300000, guid: eb48ea50d8808b34692ef2c0c74993f5, type: 3}
+  type1: 5
+  type2: 0
+  maxHP: 66
+  attack: 44
+  defense: 66
+  spAttack: 88
+  spDefense: 66
+  speed: 88
+  catchRate: 215
+  expYield: 100
+  growthRate: 1
+  learnableSkills:
+  - skillBase: {fileID: 11400000, guid: c1a73ff7e9529b4439a90454d752025c, type: 2}
+    level: 1
+  - skillBase: {fileID: 11400000, guid: 8497eb8b970ff7a4b922c8747f0cd49a, type: 2}
+    level: 4
+  - skillBase: {fileID: 11400000, guid: a2dbd322fb721fb4a94e4d402ad41eb9, type: 2}
+    level: 6
+  - skillBase: {fileID: 11400000, guid: 4912647b43b0a5941b41cf565f74a7f5, type: 2}
+    level: 7
+  - skillBase: {fileID: 11400000, guid: 57455142297dc814c848df08595b72e1, type: 2}
+    level: 10
+  - skillBase: {fileID: 11400000, guid: 996f4840d1bf0334abc8cc2c3badb2d5, type: 2}
+    level: 12

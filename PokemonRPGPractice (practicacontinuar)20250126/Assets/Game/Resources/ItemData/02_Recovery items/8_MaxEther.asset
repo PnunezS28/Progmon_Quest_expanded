@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1120ca24e59f30547a4c3cc836cdc8ba, type: 3}
+  m_Name: 8_MaxEther
+  m_EditorClassIdentifier: 
+  itemDexId: 28
+  itemName: Cargador MAX
+  itemDescription: Restaura los usos de las habilidades de un progmon al 100%
+  itemUsedText: "Se us\xF3 un Cargador MAX"
+  itemIcon: {fileID: 21300000, guid: 4a432c088889b5a46b105b9dce0a4875, type: 3}
+  shopPrice: 80
+  isSellable: 1
+  hpRecoverAmount: 0
+  restoreMaxHp: 0
+  useRecoverAmount: 0
+  restoreMaxUses: 1
+  status: 0
+  recoverAllStatus: 0
+  revive: 0
+  MaxRevive: 0

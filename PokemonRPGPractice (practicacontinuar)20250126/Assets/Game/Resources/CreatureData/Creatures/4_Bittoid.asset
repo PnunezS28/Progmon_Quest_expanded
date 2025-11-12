@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4012c1cd1f08de43931ccf42f41cd3d, type: 3}
+  m_Name: 4_Bittoid
+  m_EditorClassIdentifier: 
+  creatureDexId: 4
+  creatureName: Bittoid
+  description: Un programa de IA asistente, puede saludar pero no puede usar lenguaje
+    comprensible.
+  battleSprite: {fileID: 21300000, guid: e2290c1920784ab4e92cdfb626ab2bb0, type: 3}
+  type1: 1
+  type2: 0
+  maxHP: 51
+  attack: 34
+  defense: 51
+  spAttack: 51
+  spDefense: 51
+  speed: 34
+  catchRate: 255
+  expYield: 64
+  growthRate: 1
+  learnableSkills:
+  - skillBase: {fileID: 11400000, guid: e89712c9c4bc2b143a002249a569aa19, type: 2}
+    level: 1
+  - skillBase: {fileID: 11400000, guid: 0a6ec912c04e5134a9826e3176aea115, type: 2}
+    level: 5
+  - skillBase: {fileID: 11400000, guid: 17d9ea1987b4c884795ea4daea1d0558, type: 2}
+    level: 6
+  - skillBase: {fileID: 11400000, guid: 5bc298031857ec94982512a15b8dfd87, type: 2}
+    level: 7
+  - skillBase: {fileID: 11400000, guid: c1a73ff7e9529b4439a90454d752025c, type: 2}
+    level: 8
+  - skillBase: {fileID: 11400000, guid: 5f47487c01db69a48bdc72b559ee1034, type: 2}
+    level: 14
+  learnableSkillsByItems:
+  - {fileID: 11400000, guid: 7da43b448669e114a846043873a8eef2, type: 2}
+  - {fileID: 11400000, guid: d8b0c6852c5efec4e9032f9cd9e49b9d, type: 2}
+  - {fileID: 11400000, guid: ab7d42ccaf23b2f4e85b98de1462406b, type: 2}
+  - {fileID: 11400000, guid: 94a8316420eb4da4a9a13b166151e0e5, type: 2}
+  - {fileID: 11400000, guid: 17d9ea1987b4c884795ea4daea1d0558, type: 2}
+  - {fileID: 11400000, guid: d1485e8d8b9f98b478966eaab8839930, type: 2}

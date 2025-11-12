@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c71a29663b7c0c4d8d7adbc42c8201d, type: 3}
+  m_Name: 01_leerDiarioChoice
+  m_EditorClassIdentifier: 
+  choices:
+  - name: Si, leer fichero
+    dialogueTrigger: {fileID: 11400000, guid: bb8da2c42756988449f1b10f5d3438d0, type: 2}
+  - name: No, cerrar fichero
+    dialogueTrigger: {fileID: 11400000, guid: 591fe54a2832f4c44ae8791b756d824b, type: 2}

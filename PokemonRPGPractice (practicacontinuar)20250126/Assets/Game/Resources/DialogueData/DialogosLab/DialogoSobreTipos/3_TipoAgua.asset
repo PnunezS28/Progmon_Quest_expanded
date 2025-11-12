@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefdf144523a5424dbc01ad4166a1411, type: 3}
+  m_Name: 3_TipoAgua
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "El tipo agua fluye como los r\xEDos y la tranquilidad de un lago."
+    - "Es fuerte contra fuego y fantasma, pero es d\xE9bil contra planta, el\xE9ctrico
+      y agua."
+    flagSet: []
+    nextTrigger: {fileID: 0}
+    audioClip: {fileID: 0}
+    audioClipVolume: 0.5
+    HealAllCreturesInParty: 0

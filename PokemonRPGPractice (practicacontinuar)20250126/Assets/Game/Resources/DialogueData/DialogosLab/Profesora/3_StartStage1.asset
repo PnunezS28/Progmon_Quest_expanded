@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefdf144523a5424dbc01ad4166a1411, type: 3}
+  m_Name: 3_StartStage1
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Prf. Sara: Fant\xE1stico, conf\xEDo en que le dar\xE1s un bu\xE9n uso."
+    - 'Prf. Sara: lo que te voy a pedir es que vayas al Bosque directorio,'
+    - "Prf. Sara: Encuentres a N/A y la derrotes para arrebatarle su c\xF3digo fuente."
+    - "Prf. Sara: Cuando salgas del laboratorio estar\xE1s en Ciudad Base, v\xE9
+      al norte para llegar al terminal warp."
+    - "Prf. Sara: Antes de salir, te recomiendo que hables con mis compa\xF1eros."
+    - "Prf. Sara: Te ense\xF1ar\xE1n como luchar en el campo, capturar m\xE1s prog-mon
+      y otras cosas \xFAtiles"
+    - "Prf.Sara: Perm\xEDteme darte estos objetos para empezar con buen pi\xE9. \xA1Buena
+      suerte!"
+    flagSet:
+    - flagKey: Stage1_started
+      flagValue: true
+    - flagKey: profesor_wants_to_talk
+      flagValue: false
+    nextTrigger: {fileID: 11400000, guid: 80a3ae2fd7d80b8428d412874374eb42, type: 2}
+    audioClip: {fileID: 0}
+    audioClipVolume: 0.5
+    HealAllCreturesInParty: 0

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4012c1cd1f08de43931ccf42f41cd3d, type: 3}
+  m_Name: 21_Twinbit
+  m_EditorClassIdentifier: 
+  creatureDexId: 21
+  creatureName: Twinbit
+  description: Un duo de conejos con datos de mando. Siempre van en pares y uno abandonado
+    es suficiente para que el otro se corrompa y desaparezca.
+  battleSprite: {fileID: 21300000, guid: 4eb78ca65a11f2346adf22f7a0c45cdc, type: 3}
+  type1: 1
+  type2: 0
+  maxHP: 111
+  attack: 111
+  defense: 83
+  spAttack: 56
+  spDefense: 56
+  speed: 83
+  catchRate: 155
+  expYield: 64
+  growthRate: 1
+  learnableSkills:
+  - skillBase: {fileID: 11400000, guid: c0af7e2f6c562ac418865e4a0eb42538, type: 2}
+    level: 1
+  - skillBase: {fileID: 11400000, guid: e89712c9c4bc2b143a002249a569aa19, type: 2}
+    level: 2
+  - skillBase: {fileID: 11400000, guid: 03ef9a29d851d8d47a20b5fdb23503b5, type: 2}
+    level: 5
+  - skillBase: {fileID: 11400000, guid: 17d9ea1987b4c884795ea4daea1d0558, type: 2}
+    level: 6
+  - skillBase: {fileID: 11400000, guid: 4595bd69902ea514bb770173172c0f3d, type: 2}
+    level: 8
+  - skillBase: {fileID: 11400000, guid: 01da91c8ae21c6245b9bcffa1a755a1a, type: 2}
+    level: 10
+  - skillBase: {fileID: 11400000, guid: 5a1d2602ca89bfa45b62696ae74173d1, type: 2}
+    level: 11
+  - skillBase: {fileID: 11400000, guid: df7ec9a66b4534d41b7f2ad741bddb5a, type: 2}
+    level: 13
+  learnableSkillsByItems:
+  - {fileID: 11400000, guid: 7da43b448669e114a846043873a8eef2, type: 2}
+  - {fileID: 11400000, guid: 2e6026c28c22e4d49b709733378b9280, type: 2}
+  - {fileID: 11400000, guid: d1485e8d8b9f98b478966eaab8839930, type: 2}
+  - {fileID: 11400000, guid: 94a8316420eb4da4a9a13b166151e0e5, type: 2}
+  - {fileID: 11400000, guid: 17d9ea1987b4c884795ea4daea1d0558, type: 2}

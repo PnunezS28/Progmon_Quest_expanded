@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a80d3d52e6825649bb0ddcd289f34cb, type: 3}
+  m_Name: 51_llueve truenos
+  m_EditorClassIdentifier: 
+  skillId: 51
+  displayName: Llueve truenos
+  description: "Poderoso ataque el\xE9ctrico especial que paraliza en contacto al
+    enemigo"
+  type: 0
+  power: 100
+  accuracy: 80
+  alwaysHit: 0
+  maxUses: 5
+  priority: 0
+  category: 1
+  effects:
+    boosts: []
+    status: 4
+    volatileStatus: 0
+  secondaries: []
+  target: 0
+  sound: {fileID: 8300000, guid: 650e0066a0443ac41b3539c2f47262b8, type: 3}

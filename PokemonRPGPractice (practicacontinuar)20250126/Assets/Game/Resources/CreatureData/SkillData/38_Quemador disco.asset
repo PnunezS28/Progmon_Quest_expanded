@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a80d3d52e6825649bb0ddcd289f34cb, type: 3}
+  m_Name: 38_Quemador disco
+  m_EditorClassIdentifier: 
+  skillId: 38
+  displayName: Quemador disco
+  description: Ataque especial potente tipo fuego que puede quemar
+  type: 2
+  power: 80
+  accuracy: 100
+  alwaysHit: 0
+  maxUses: 15
+  priority: 0
+  category: 0
+  effects:
+    boosts: []
+    status: 0
+    volatileStatus: 0
+  secondaries:
+  - boosts: []
+    status: 2
+    volatileStatus: 0
+    triggerChance: 10
+    target: 0
+  target: 0
+  sound: {fileID: 8300000, guid: aa8d423b27ef9274ba957ee84de5899c, type: 3}

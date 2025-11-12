@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a80d3d52e6825649bb0ddcd289f34cb, type: 3}
+  m_Name: 43_Tirachinas
+  m_EditorClassIdentifier: 
+  skillId: 43
+  displayName: Tirachinas
+  description: "Dispara una roca al oponente. Puede reducir su precisi\xF3n."
+  type: 7
+  power: 40
+  accuracy: 100
+  alwaysHit: 0
+  maxUses: 25
+  priority: 0
+  category: 1
+  effects:
+    boosts: []
+    status: 0
+    volatileStatus: 0
+  secondaries:
+  - boosts:
+    - stat: 5
+      boostLevel: -1
+    status: 0
+    volatileStatus: 0
+    triggerChance: 20
+    target: 0
+  target: 0
+  sound: {fileID: 8300000, guid: 3e470d9c216811542a76961305c807de, type: 3}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70d710cde7dba214b801bc8578d9d2e8, type: 3}
+  m_Name: 01_FilezillaBattleStart
+  m_EditorClassIdentifier: 
+  creatureEncounter: {fileID: 11400000, guid: f1d5ffb1b3ebef44aa8f3adb0c2a3f3b, type: 2}
+  creatureLevel: 15
+  mustBeCaptured: 1
+  encounterID: filezylla_encounter
+  flagSet: []
+  dialogueAfterBattleCleared: {fileID: 11400000, guid: c35ffa1c5c8e93747bf6cfa41536f2b0, type: 2}
+  dialogueAfterBattleCaptureFailed: {fileID: 11400000, guid: 83d2e573eb46a9d429164cf90d8f755e, type: 2}

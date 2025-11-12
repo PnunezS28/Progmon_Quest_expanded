@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4012c1cd1f08de43931ccf42f41cd3d, type: 3}
+  m_Name: 23_Filezilla
+  m_EditorClassIdentifier: 
+  creatureDexId: 23
+  creatureName: Filezilla
+  description: "Una criatura tit\xE1nica nacida en un mar de datos. Su poder salvaje
+    es incontenible para las memorias corrientes disponible spara el p\xFAblico."
+  battleSprite: {fileID: 21300000, guid: aa20aafa56ad3814581d3be8515c8d99, type: 3}
+  type1: 11
+  type2: 7
+  maxHP: 126
+  attack: 158
+  defense: 126
+  spAttack: 32
+  spDefense: 95
+  speed: 63
+  catchRate: 140
+  expYield: 164
+  growthRate: 1
+  learnableSkills:
+  - skillBase: {fileID: 11400000, guid: 93ea057e998c5c04a8770a96d497f3ea, type: 2}
+    level: 1
+  - skillBase: {fileID: 11400000, guid: 6ed7fc0241f360e42920db1bf7e91195, type: 2}
+    level: 3
+  - skillBase: {fileID: 11400000, guid: 2e6026c28c22e4d49b709733378b9280, type: 2}
+    level: 8
+  - skillBase: {fileID: 11400000, guid: 70710c51fd6979245beef66fd3a83281, type: 2}
+    level: 10
+  - skillBase: {fileID: 11400000, guid: 327e55d38b726574989ee0900eaa7b88, type: 2}
+    level: 14

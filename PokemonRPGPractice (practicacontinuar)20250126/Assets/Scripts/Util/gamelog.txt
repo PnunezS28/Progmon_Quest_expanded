@@ -1,0 +1,82 @@
+[18/04/2023 17:36:57]DebugLogger OnEnable: UnityEngine.Debug:Log (object)
+DebugLogger:OnEnable () (at Assets/Scripts/Util/DebugLogger.cs:13)
+
+[18/04/2023 17:36:57]LevelLoader Awake: UnityEngine.Debug:Log (object)
+LevelLoader:Awake () (at Assets/Scripts/UI/LevelLoader.cs:39)
+
+[18/04/2023 17:36:57]FlagManager awake: UnityEngine.Debug:Log (object)
+FlagManager:Awake () (at Assets/Scripts/Util/DialogueElementScripts/FlagManager.cs:41)
+
+[18/04/2023 17:36:57]GameController awake started: UnityEngine.Debug:Log (object)
+GameController:Awake () (at Assets/Scripts/GameController.cs:39)
+
+[18/04/2023 17:36:57]Initialized ConditionsDB: UnityEngine.Debug:Log (object)
+ConditionsDB:Init () (at Assets/Scripts/Data/ConditionsDB.cs:18)
+GameController:Awake () (at Assets/Scripts/GameController.cs:41)
+
+[18/04/2023 17:36:57]Inicializando CreatureDex: CreatureDexHardwareBattle: UnityEngine.Debug:Log (object)
+CreatureDex:Init () (at Assets/Scripts/SavingSystem/CreatureDex.cs:20)
+CreatureDexHandler:Init () (at Assets/Scripts/SavingSystem/CreatureDexHandler.cs:20)
+GameController:Awake () (at Assets/Scripts/GameController.cs:42)
+
+[18/04/2023 17:36:57]Inicializando creatureDexHandler progreso de colección: UnityEngine.Debug:Log (object)
+CreatureDexHandler:Init () (at Assets/Scripts/SavingSystem/CreatureDexHandler.cs:27)
+GameController:Awake () (at Assets/Scripts/GameController.cs:42)
+
+[18/04/2023 17:36:57]Initialized TransitPointDB: UnityEngine.Debug:Log (object)
+TransitPointDB:Init () (at Assets/Scripts/WorldSceneTransitionScripts/TransitPointDB.cs:16)
+GameController:Awake () (at Assets/Scripts/GameController.cs:43)
+
+[18/04/2023 17:36:57]Initialized CreatureBox: UnityEngine.Debug:Log (object)
+CreatureBox:Init () (at Assets/Scripts/CreatureBox/CreatureBox.cs:100)
+GameController:Awake () (at Assets/Scripts/GameController.cs:50)
+
+[18/04/2023 17:36:57]GameController SpawningPlayer: UnityEngine.Debug:Log (object)
+GameController:SpawnPlayer () (at Assets/Scripts/GameController.cs:72)
+GameController:Awake () (at Assets/Scripts/GameController.cs:54)
+
+[18/04/2023 17:36:57]Retrieving flag value as boolean value, flagKey= spawn_on_transit_point: UnityEngine.Debug:Log (object)
+FlagManager:GetFlagAsBool (string) (at Assets/Scripts/Util/DialogueElementScripts/FlagManager.cs:73)
+GameController:SpawnPlayer () (at Assets/Scripts/GameController.cs:75)
+GameController:Awake () (at Assets/Scripts/GameController.cs:54)
+
+[18/04/2023 17:36:57]Retrieving flag value as boolean value, flagKey= spawn_on_save_file_loading: UnityEngine.Debug:Log (object)
+FlagManager:GetFlagAsBool (string) (at Assets/Scripts/Util/DialogueElementScripts/FlagManager.cs:73)
+GameController:SpawnPlayer () (at Assets/Scripts/GameController.cs:121)
+GameController:Awake () (at Assets/Scripts/GameController.cs:54)
+
+[18/04/2023 17:36:57]Retrieving flag value as boolean value, flagKey= transit_to_heal_center_on_defeat: UnityEngine.Debug:Log (object)
+FlagManager:GetFlagAsBool (string) (at Assets/Scripts/Util/DialogueElementScripts/FlagManager.cs:73)
+GameController:SpawnPlayer () (at Assets/Scripts/GameController.cs:126)
+GameController:Awake () (at Assets/Scripts/GameController.cs:54)
+
+[18/04/2023 17:36:57]GameController Spawning new player at default position: UnityEngine.Debug:Log (object)
+GameController:SpawnPlayer () (at Assets/Scripts/GameController.cs:132)
+GameController:Awake () (at Assets/Scripts/GameController.cs:54)
+
+[18/04/2023 17:36:57]PlayerController Awake!!!: UnityEngine.Debug:Log (object)
+PlayerController:Awake () (at Assets/Scripts/Character/PlayerController.cs:41)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+GameController:SpawnPlayer () (at Assets/Scripts/GameController.cs:134)
+GameController:Awake () (at Assets/Scripts/GameController.cs:54)
+
+[18/04/2023 17:36:57]Initialized PartyScreen: UnityEngine.Debug:Log (object)
+PartyScreen:Init () (at Assets/Scripts/BattleSystem/PartyScreen.cs:40)
+GameController:Awake () (at Assets/Scripts/GameController.cs:57)
+
+[18/04/2023 17:36:57]GameController awake: UnityEngine.Debug:Log (object)
+GameController:Awake () (at Assets/Scripts/GameController.cs:66)
+
+[18/04/2023 17:36:57]GameController OnEnabled: UnityEngine.Debug:Log (object)
+GameController:OnEnable () (at Assets/Scripts/GameController.cs:34)
+
+[18/04/2023 17:36:57]Checking flag triggers: UnityEngine.Debug:Log (object)
+FlagActiveBasedObject:isTriggered () (at Assets/Scripts/Util/DialogueElementScripts/FlagActiveBasedObject.cs:61)
+FlagActiveBasedObject:Start () (at Assets/Scripts/Util/DialogueElementScripts/FlagActiveBasedObject.cs:22)
+
+[18/04/2023 17:36:57]Retrieving flag value as boolean value, flagKey= Dialogo_Inicio1_acabado: UnityEngine.Debug:Log (object)
+FlagManager:GetFlagAsBool (string) (at Assets/Scripts/Util/DialogueElementScripts/FlagManager.cs:73)
+FlagCheckTrigger:IsTriggered (FlagManager) (at Assets/Scripts/Util/DialogueElementScripts/FlagCheckTrigger.cs:22)
+FlagActiveBasedObject:isTriggered () (at Assets/Scripts/Util/DialogueElementScripts/FlagActiveBasedObject.cs:67)
+FlagActiveBasedObject:Start () (at Assets/Scripts/Util/DialogueElementScripts/FlagActiveBasedObject.cs:22)
+

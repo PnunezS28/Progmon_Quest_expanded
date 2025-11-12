@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4012c1cd1f08de43931ccf42f41cd3d, type: 3}
+  m_Name: 12_Moniwan
+  m_EditorClassIdentifier: 
+  creatureDexId: 12
+  creatureName: Moniwan
+  description: "Es muy energ\xE9tico y duro de pelar. Puede perseguir su presa si
+    cansarse, pero se distrae con facilidad."
+  battleSprite: {fileID: 21300000, guid: 5d9388a8c300aaf44aad68295587552b, type: 3}
+  type1: 7
+  type2: 1
+  maxHP: 96
+  attack: 72
+  defense: 96
+  spAttack: 24
+  spDefense: 72
+  speed: 48
+  catchRate: 200
+  expYield: 130
+  growthRate: 1
+  learnableSkills:
+  - skillBase: {fileID: 11400000, guid: 7da43b448669e114a846043873a8eef2, type: 2}
+    level: 1
+  - skillBase: {fileID: 11400000, guid: 5bc298031857ec94982512a15b8dfd87, type: 2}
+    level: 3
+  - skillBase: {fileID: 11400000, guid: 94a8316420eb4da4a9a13b166151e0e5, type: 2}
+    level: 5
+  - skillBase: {fileID: 11400000, guid: 827e77560f774b4439b4a75a4e9b73e8, type: 2}
+    level: 6
+  - skillBase: {fileID: 11400000, guid: b2ed12966f20b66489c5d07f35a7a6d7, type: 2}
+    level: 10
+  - skillBase: {fileID: 11400000, guid: df7ec9a66b4534d41b7f2ad741bddb5a, type: 2}
+    level: 112
+  learnableSkillsByItems:
+  - {fileID: 11400000, guid: 7da43b448669e114a846043873a8eef2, type: 2}
+  - {fileID: 11400000, guid: 94a8316420eb4da4a9a13b166151e0e5, type: 2}
+  - {fileID: 11400000, guid: 17d9ea1987b4c884795ea4daea1d0558, type: 2}
+  - {fileID: 11400000, guid: 6a4c0718d8f940a4e84ebc2bae7fecdc, type: 2}

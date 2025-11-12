@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefdf144523a5424dbc01ad4166a1411, type: 3}
+  m_Name: 8_Stage3_clear
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Prf.Sara: Veo que has vuelto sano y salvo. Ese trozo digital contiene informaci\xF3n
+      de N/A."
+    - 'Prf.Sara: Lo analizaremos para liberar el sistema.'
+    - 'Prf.Sara: Has hecho un buen trabajo, enhorabuena.'
+    - 'Prf.Sara: Puedes seguir explorando este mundo si quieres.'
+    - 'Prf.Sara: De mientras nosotros trabajaremos para tomar el control del sistema
+      de N/A.'
+    flagSet:
+    - flagKey: Game_clear
+      flagValue: true
+    nextTrigger: {fileID: 0}
+    audioClip: {fileID: 0}
+    audioClipVolume: 0.5
+    HealAllCreturesInParty: 0

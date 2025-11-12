@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4012c1cd1f08de43931ccf42f41cd3d, type: 3}
+  m_Name: 3_Recycloid
+  m_EditorClassIdentifier: 
+  creatureDexId: 3
+  creatureName: Recicloid
+  description: "Un programa de reciclaje y limpieza. Es frecuente que olvide vaciar
+    su cuerpo despu\xE9s de realizar b\xFAsquedas."
+  battleSprite: {fileID: 21300000, guid: ff679431ffc0c564c9ac3eff369f2a4e, type: 3}
+  type1: 4
+  type2: 0
+  maxHP: 67
+  attack: 34
+  defense: 51
+  spAttack: 51
+  spDefense: 67
+  speed: 51
+  catchRate: 120
+  expYield: 100
+  growthRate: 1
+  learnableSkills:
+  - skillBase: {fileID: 11400000, guid: e89712c9c4bc2b143a002249a569aa19, type: 2}
+    level: 1
+  - skillBase: {fileID: 11400000, guid: 4912647b43b0a5941b41cf565f74a7f5, type: 2}
+    level: 3
+  - skillBase: {fileID: 11400000, guid: 96d5a9bf50b56764dac9174b044d57b8, type: 2}
+    level: 5
+  - skillBase: {fileID: 11400000, guid: 216d7cd85840d354bac94020d2a5f5a0, type: 2}
+    level: 6
+  - skillBase: {fileID: 11400000, guid: 5f47487c01db69a48bdc72b559ee1034, type: 2}
+    level: 7
+  - skillBase: {fileID: 11400000, guid: 8497eb8b970ff7a4b922c8747f0cd49a, type: 2}
+    level: 9
+  - skillBase: {fileID: 11400000, guid: 1c07e4791b4414744b7295a6c14a1186, type: 2}
+    level: 11
+  learnableSkillsByItems:
+  - {fileID: 11400000, guid: 1c07e4791b4414744b7295a6c14a1186, type: 2}
+  - {fileID: 11400000, guid: d8b0c6852c5efec4e9032f9cd9e49b9d, type: 2}
+  - {fileID: 11400000, guid: 94a8316420eb4da4a9a13b166151e0e5, type: 2}
+  - {fileID: 11400000, guid: 17d9ea1987b4c884795ea4daea1d0558, type: 2}
